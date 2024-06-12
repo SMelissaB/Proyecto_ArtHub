@@ -1,0 +1,102 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(207, 250, 229);
+}
+.main {
+  flex: 70%;
+  background-color: #bbbbbb;
+  padding: 20px;
+}
+.main .read-more {
+  color: white;
+  text-decoration: none;
+  background-color: var(--color-primary);
+  padding: 10px;
+  border-radius: 10px;
+}
+.main .read-more:hover {
+  background-color: var(--color-primary-dark);
+}
+.more {
+  text-align: center;
+  display: block;
+  color: var(--color-primary);
+  margin-top: 40px;
+}
+.more:hover {
+  color: var(--color-primary-dark);
+}
+article {
+  margin-bottom: 90px;
+}
+.suscribete {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+  text-decoration: none;
+  color: white;
+}
+.suscribete:hover {
+  background-color: var(--color-primary-dark);
+}
+.pintura1 {
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+.pintura2 {
+  margin-top: -50px;
+  margin-bottom: -65px;
+  top: 15px;
+  width: 80%;
+  height: auto;
+  padding: 0px;
+  clip-path: inset(100px 35px 90px 35px);
+}
+.pintura3 {
+  width: 70%;
+  padding: 20px;
+  height: auto;
+}
+.pintura4 {
+  margin-top: -20px;
+  margin-left: -70px;
+  padding: 20px;
+  width: 90%;
+  height: auto;
+  clip-path: inset(50px 120px 50px 120px);
+}
+.pintura5 {
+  margin-top: -30px;
+  margin-bottom: -20px;
+  padding: 20px;
+  width: 60%;
+  height: auto;
+  clip-path: inset(47px 50px 47px 50px);
+}
+.pintura6 {
+  padding: 20px;
+  width: 80%;
+  height: auto;
+}
+.contenedordeimagenes {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+}
+.read-more {
+  padding: 0%;
+  margin: 0%;
+}
+#moreulti {
+  margin-left: 40px;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 40px;
+  color: #bbbbbb;
+  text-decoration: none;
+  background-color: var(--color-primary);
+}
+#moreulti :hover {
+  background-color: var(--color-primary-dark);
+}
